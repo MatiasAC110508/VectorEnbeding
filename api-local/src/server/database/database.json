@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "id": "54cdac07-5af8-4e4b-abc3-962307c5c8d5",
+      "createdAt": "2026-04-10T13:32:00.130Z",
+      "name": "Matías Aguirre Correa",
+      "email": "matiasaguirrecorrea@gmail.com",
+      "role": "support",
+      "status": "inactive"
+    },
+    {
+      "id": "3d029b48-75cc-4d8c-a728-32d2f5cb5a7c",
+      "name": "Olivia Carter",
+      "email": "olivia@localcrm.dev",
+      "role": "admin",
+      "status": "active",
+      "createdAt": "2026-04-01T14:25:00.000Z"
+    },
+    {
+      "id": "22fe2a07-b8ba-4e87-ba30-5947361b6b39",
+      "name": "Noah Bennett",
+      "email": "noah@localcrm.dev",
+      "role": "support",
+      "status": "inactive",
+      "createdAt": "2026-03-22T09:10:00.000Z"
+    }
+  ],
+  "clients": [
+    {
+      "id": "c84e8fc5-cfdf-4c50-aa30-815aad58f728",
+      "companyName": "Northwind Labs",
+      "contactName": "Ethan Brooks",
+      "email": "ethan@northwind.dev",
+      "industry": "technology",
+      "status": "active",
+      "createdAt": "2026-04-05T11:35:00.000Z"
+    },
+    {
+      "id": "2fbc12dc-c9b7-43a3-a33f-c64d11108ea3",
+      "companyName": "Riverstone Health",
+      "contactName": "Mia Dawson",
+      "email": "mia@riverstone.health",
+      "industry": "healthcare",
+      "status": "prospect",
+      "createdAt": "2026-03-17T16:45:00.000Z"
+    }
+  ]
+}

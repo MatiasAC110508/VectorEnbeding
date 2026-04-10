@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f6f1e8;
+  --foreground: #0f172a;
+  --surface: rgba(255, 255, 255, 0.72);
+  --surface-strong: rgba(255, 255, 255, 0.9);
+  --border: rgba(148, 163, 184, 0.24);
+  --muted: #5b6472;
+  --accent: #d97706;
+  --accent-soft: rgba(217, 119, 6, 0.14);
+  --font-sans: "Avenir Next", "Segoe UI", "Trebuchet MS", sans-serif;
+  --font-mono: "SFMono-Regular", "Consolas", "Liberation Mono", monospace;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background:
+    radial-gradient(circle at top left, rgba(249, 115, 22, 0.12), transparent 22rem),
+    radial-gradient(circle at top right, rgba(14, 165, 233, 0.09), transparent 18rem),
+    linear-gradient(180deg, #f9f4eb 0%, #eef2f6 100%);
+  color: var(--foreground);
+  font-family: var(--font-sans), sans-serif;
+}
+
+* {
+  border-color: var(--border);
+}
+
+::selection {
+  background: rgba(217, 119, 6, 0.18);
+}
+
+.bg-app {
+  background:
+    radial-gradient(circle at top left, rgba(249, 115, 22, 0.12), transparent 22rem),
+    radial-gradient(circle at top right, rgba(14, 165, 233, 0.09), transparent 18rem),
+    linear-gradient(180deg, #f9f4eb 0%, #eef2f6 100%);
+}
